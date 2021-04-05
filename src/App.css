@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(119, 243, 158);
+}
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
+}
+
+.App .title {
+  font-size: 3rem;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(118, 214, 225);
+  border-radius: 10px;
+  border: 2px solid black;
+  align-self: center;
+  color: #1b1b1b;
+  font-family: "Covered By Your Grace", cursive;
+}
+.App input {
+  background: transparent;
+  border: none;
+  color: black;
+  border-bottom: 5px dashed black;
+  min-width: 400px;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-left: 580px;
+}
+.App input::placeholder {
+  color: black;
+  font-size: 1.3rem;
+}
+.btn {
+  padding: 10px;
+  border-radius: 30%;
+  color: black;
+  font-size: 1.2rem;
+  background-color: rgb(118, 214, 225);
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+}
+.btn:hover {
+  padding: 15px;
+  font-size: 1.5rem;
+}

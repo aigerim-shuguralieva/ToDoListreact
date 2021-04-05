@@ -1,0 +1,30 @@
+.text {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
+.todo-groups {
+  display: flex;
+  justify-content: center;
+}
+.btn-del {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.btn-com {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  margin-left: 10px;
+  color: white;
+}
